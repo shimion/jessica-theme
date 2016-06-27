@@ -1,0 +1,178 @@
+		</div>
+			<footer class="footer " role="contentinfo">
+				<?php
+
+				 global $c5_skindata;
+				 global $c5_skip_page_width;
+				 $c5_skip_page_width = true;
+
+				 $c5_skindata['footer_default'] = ot_get_option('footer_template');
+
+
+				 $footer_enable = $c5_skindata['footer_enable'];
+				 if ($footer_enable != 'off') {
+				 $color_mode = 'c5-content-dark';
+				 $footer_background = $c5_skindata['footer_background'];
+				 if ($footer_background != '') {
+				 	$lum = c5_get_lum_hex($footer_background);
+
+				 	if ($lum<170) {
+				 		$color_mode = 'c5-content-dark';
+				 	}else {
+				 		$color_mode = 'c5-content-light';
+				 	}
+				 }
+				 ?>
+					<div class="footer-main  ">
+						<!--<div class="<?php echo $color_mode; ?> c5-main-width-wrap">
+						<?php
+						if($c5_skindata['footer_default']!=''){
+
+							echo do_shortcode('[c5ab_template id="'.$c5_skindata['footer_default'].'"]');
+						}
+						echo '<div class="clearfix"></div>';
+
+
+						 ?>
+						</div>-->
+                        
+                        
+                        <div class="c5-content-dark c5-main-width-wrap">
+								<style>
+			#c5ab-row-AaRsWO,
+			#c5ab-row-AaRsWO .c5ab-row{
+				margin-left:-15px;
+				margin-right:-15px;
+			}
+			
+			#c5ab-row-AaRsWO .c5ab-col-base{
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			#c5ab-section-AaRsWO{
+								<br />
+<b>Warning</b>:  base64_decode() expects parameter 1 to be string, array given in <b>/home/jrbweb/public_html/wp-content/themes/crystal/library/framework/awesome-builder/classes/row.php</b> on line <b>427</b><br />
+<br />
+<b>Warning</b>:  base64_decode() expects parameter 1 to be string, array given in <b>/home/jrbweb/public_html/wp-content/themes/crystal/library/framework/awesome-builder/classes/row.php</b> on line <b>430</b><br />
+				margin: auto auto auto auto ;
+				padding: auto auto auto auto ;
+			}
+			
+		</style>
+				 
+		 
+			<div id="c5ab-section-AaRsWO" class="c5ab-light-mode c5ab-section-common c5ab-align-left c5ab-desktop-TRUE c5ab-tablet-TRUE c5ab-mobile-TRUE   clearfix">
+					
+							<div class="c5ab-center-content" style="max-width:1170px">
+					
+		<div class="c5ab-row clearfix" id="c5ab-row-AaRsWO">
+				<div class="c5ab-col-base c5ab-col-lg-3 c5ab-col-md-3 c5ab-col-sm-12 ">
+		<div class="c5ab-widget widget_image-widget c5ab-desktop-TRUE c5ab-tablet-TRUE c5ab-mobile-TRUE" id="c5ab-widget-TxqPMS"><div class="c5ab-image-wrap left"><img src="https://d.pr/i/13YK0+" width="auto" height="auto" alt="" class=""></div></div><div class="c5ab-widget widget_space-widget c5ab-desktop-TRUE c5ab-tablet-TRUE c5ab-mobile-TRUE" id="c5ab-widget-ROsfcL"><div class="c5ab_space" style="height:25px"></div></div><div class="c5ab-widget widget_text-widget c5ab-desktop-TRUE c5ab-tablet-TRUE c5ab-mobile-TRUE" id="c5ab-widget-WyzFjc">Crystal is a personal blog and magazine WordPress theme that lets you present your thoughts and information in an elegant way.<br><br>
+
+Start Building your website in few minutes and get the support of retina, responsive, rtl and WPML and much more at your finger tip.</div>		</div>
+				<div class="c5ab-col-base c5ab-col-lg-3 c5ab-col-md-3 c5ab-col-sm-12 ">
+				<div class="c5ab-widget widget_recent-posts c5ab-desktop-TRUE c5ab-tablet-TRUE c5ab-mobile-TRUE" id="c5ab-widget-NShWLs">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://jessicarhodesbiz.webimpakt-green.com/2016/06/13/launch-your-book-with-a-podcast-tour/">Launch Your Book with a Podcast Tour</a>
+							<span class="post-date">June 13, 2016</span>
+						</li>
+					<li>
+				<a href="http://jessicarhodesbiz.webimpakt-green.com/2016/06/08/james-2/">Case Study: The Dharmic Evolution podcast with James Kevin O'Connor</a>
+							<span class="post-date">June 8, 2016</span>
+						</li>
+					<li>
+				<a href="http://jessicarhodesbiz.webimpakt-green.com/2016/06/07/top-5-reasons-we-turn-potential-clients-away/">Top 5 Reasons We Turn Potential Clients Away</a>
+							<span class="post-date">June 7, 2019</span>
+						</li>
+				</ul>
+		</div>				</div>
+				<div class="c5ab-col-base c5ab-col-lg-3 c5ab-col-md-3 c5ab-col-sm-12 ">
+		<div class="c5ab-widget widget_twitter-widget c5ab-desktop-TRUE c5ab-tablet-TRUE c5ab-mobile-TRUE" id="c5ab-widget-ifVXQF"><h3 class=" c5ab-title-bYHUZ   normal title  clearfix"><span class="text-wrap"><span class="text ">Twitter Feed</span></span></h3></div>
+        
+        			<div class="c5ab-widget widget_text-widget c5ab-desktop-TRUE c5ab-tablet-TRUE c5ab-mobile-TRUE" id="c5ab-widget-WyzFjc">             <a class="twitter-timeline"  href="https://twitter.com/JessRhodesBiz" data-widget-id="671334877938192384" data-chrome="nofooter noheader">Tweets by @JessRhodesBiz</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+                
+        
+        
+        		</div>
+				<div class="c5ab-col-base c5ab-col-lg-3 c5ab-col-md-3 c5ab-col-sm-12 ">
+		<div class="c5ab-widget widget_dribbble-widget c5ab-desktop-TRUE c5ab-tablet-TRUE c5ab-mobile-TRUE" id="c5ab-widget-bHnjCR"><h3 class=" c5ab-title-OAluQ   normal title  clearfix"><span class="text-wrap"><span class="text ">Dribbble</span></span></h3></div>		</div>
+				</div>
+		
+						</div>
+						
+			</div>
+		<div class="clearfix"></div>						</div>
+					</div>
+				<?php
+				}
+				$footer_copyrights_enable = $c5_skindata['footer_copyrights_enable'];
+				if ($footer_copyrights_enable != 'off') {
+					$color_mode = 'c5-content-dark';
+					$footer_copyrights_background = $c5_skindata['footer_copyrights_background'];
+					if ($footer_copyrights_background != '') {
+						$lum = c5_get_lum_hex($footer_copyrights_background);
+
+						if ($lum<170) {
+							$color_mode = 'c5-content-dark';
+						}else {
+							$color_mode = 'c5-content-light';
+						}
+					}
+					echo '<div class="footer-bar clearfix"><div class="'.$color_mode.' c5-main-width-wrap">';
+					$footer_copyrights = $c5_skindata['footer_copyrights'];
+					if($footer_copyrights!=''){
+						echo '<div class="c5-left">';
+						echo '<div class="c5-copyrights">';
+
+						echo wp_kses($footer_copyrights,array(
+							'a' => array(
+								'href' => array(),
+						        'title' => array(),
+						         'class' => array()
+						     ),
+						     'span'=>array(
+						     	'class' => array()
+						     )
+						     ));
+
+						echo '</div>';
+						echo '</div>';
+					}
+
+
+					$code = '';
+					$social_icons = $c5_skindata['social_icons'];
+					if ($social_icons) {
+					    $code .= '[c5ab_social_icons]';
+					    foreach ($social_icons as $social_icon) {
+					        $code .= '[c5ab_social_icon icon="' . esc_attr($social_icon['icon']) . '" link="' . esc_url($social_icon['link']) . '" title="' . esc_attr($social_icon['title']) . '" ]';
+					    }
+					    $code .= '[/c5ab_social_icons]';
+					}
+					echo '<div class="c5-right"><div class="c5-social-footers"></div>' . do_shortcode($code) .'</div>';
+
+					echo '<div class="clearfix"></div></div></div>';
+				}
+					 ?>
+				<style>
+
+				.footer .footer-main{
+					background: <?php echo $c5_skindata['footer_background'] ?>;
+				}
+				.footer .footer-bar{
+					background: <?php echo $c5_skindata['footer_copyrights_background'] ?>;
+				}
+				</style>
+			</footer>
+
+
+	</div>
+	</div>
+		<p id="gotop"><span class="fa fa-sort-asc"></span></p>
+		<?php // all js scripts are loaded in library/bones.php ?>
+		<?php wp_footer(); ?>
+	</body>
+
+</html>
